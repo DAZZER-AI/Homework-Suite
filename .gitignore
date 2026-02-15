@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+
+# Node.js
+node_modules/
+yarn-error.log
+package-lock.json
+
+# VS Code
+.vscode/
+
+# IDE
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Logs
+*.log
