@@ -14,20 +14,16 @@ export function QuestCard({ title, subject, difficulty, reward, minutes }: Quest
   return (
     <motion.article
       className="quest-card"
-      whileHover={{ y: -3 }}
-      transition={{ type: "spring", stiffness: 260, damping: 20 }}
+      whileHover={{ y: -4, scale: 1.01 }}
+      transition={{ type: "spring", stiffness: 250, damping: 18 }}
     >
-      <div className="quest-head">
-        <span className="quest-subject">{subject}</span>
-        <span className="badge">{difficulty}</span>
-      </div>
+      <p className="quest-subject">{subject}</p>
       <h3>{title}</h3>
-      <p className="quest-note">Turn this assignment into a short interactive run with instant feedback.</p>
       <div className="quest-meta">
-        <span>⏱️ {minutes} min</span>
-        <span>⭐ {reward}</span>
+        <span>{difficulty}</span>
+        <span>{minutes} min</span>
       </div>
-      <button className="primary-btn">Play Quest</button>
+      <button className="primary-btn">Play for {reward}</button>
     </motion.article>
   );
 }

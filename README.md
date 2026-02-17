@@ -1,4 +1,3 @@
-# Homework Suite
 
 Homework Suite is a cross-platform homework gaming platform for students (ages 6–25+), with companion tools for teachers and parents.
 
@@ -12,8 +11,8 @@ This repo includes a multi-app MVP scaffold:
 - `docs/` — Product requirements, architecture, roadmap, and screenshot preview assets.
 
 ## MVP Features Implemented
-- Student dashboard UI redesigned with a Notion-inspired layout (sidebar, calm productivity surfaces, and playful quest personality).
-- Mobile dashboard refreshed to match the Notion-with-personality direction (clean cards, quick stats, emoji-rich quest board, strong focus CTA).
+- Student dashboard UI with daily quest, active assignments, and streak/progress cards.
+- Mobile dashboard UI following the provided visual direction (soft yellow background, rounded cards, high-contrast CTA).
 - Backend endpoints aligned with the requested API skeleton:
   - `POST /api/auth/register`
   - `POST /api/auth/login`
